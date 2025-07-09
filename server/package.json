@@ -1,10 +1,5 @@
 // File: package.json
 // Contenuto iniziale per package.json
-"scripts": {
-  "start": "node app.js",
-  "dev": "nodemon app.js"
-}
-
 {
   "name": "evocad-server",
   "version": "0.0.1",
