@@ -1,2 +1,22 @@
 // File: package.json
 // Contenuto iniziale per package.json
+"scripts": {
+  "start": "node app.js",
+  "dev": "nodemon app.js"
+}
+
+{
+  "name": "evocad-server",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.0",
+    "bcryptjs": "^2.4.3"
+  }
+}
